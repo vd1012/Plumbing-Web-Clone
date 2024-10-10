@@ -1,0 +1,235 @@
+@media screen and (max-width:1024px) {
+    p, li{
+        font-size: small !important;
+    }
+    .home-contain h1, .about-box-1 h1, .our-services h1, .we-are h1, .why-choose-us-box-1 h1 {
+        font-size: 40px;
+    }
+    .home-box2::before {
+        top: 3rem;
+    }
+    .about-head, .why-choose-us h4 {
+        max-width: 13%;
+        font-size: small;
+    }
+    .ser-child-box-2 h4{
+        font-size: small;
+    }
+    .ser-child-box-1 img {
+        width: 70px;
+        height: 70px;
+    }
+}
+@media screen and (max-width:884px){
+    .home-contain h1, .about-box-1 h1, .our-services h1, .we-are h1, .why-choose-us-box-1 h1 ,.Workflows-box-1 h1 {
+        font-size: 34px;
+    }
+    .home-container {
+        height: 400px;
+    }
+    .home-box1, .home-box2 {
+        height: 300px;
+    }
+    .slider, .home-contain {
+        height: 300px;
+    }
+    .home-box2::before {
+        top: -4rem;
+    }
+    .about-us {
+        height: 400px;
+    }
+    .about-box-1,.about-box-2 {
+        height: 400px;
+    }
+    .about-box-2::before {
+        height: 400px;
+        left: 12rem; 
+    }
+    .ser-box-1 {
+        width: 100%;
+        display: grid;
+        height: auto;
+        grid-template-columns: repeat(3, auto);
+        gap: 1rem;
+    }
+    .ser-box-2{
+        display: none;
+    }
+    .ser-box-2-mini{
+        width: 100%;
+        display: grid;
+        height: auto;
+        grid-template-columns: repeat(3, auto);
+        gap: 1rem;
+    }
+    .ser-child {
+        width: 90%;
+    }
+    .about-head, .why-choose-us h4 {
+        max-width: 15%;
+    }
+    .why-choose-us-boxs {
+        height: 300px;
+    }
+    .why-choose-us-box-1 {
+        height: 300px;
+    }
+    .why-choose-us-box-2 {
+        height: 300px;
+    }
+    .why-choose-us-box-2 img {
+        height: 300px;
+    }
+    .child-1 h1, .child-2 h1, .child-3 h1, .child-4 h1 {
+        font-size: 20px;
+    }
+    .Workflows-us {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .s-nav-details {
+        display: none;  
+      }
+      .s-nav {
+        
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .s-nav ul {
+        display: flex;
+        gap: 1.5rem;
+        flex-direction: column;
+        height: 200px;
+        background-color: white;
+        padding: 1rem;
+    }
+      .hamburger {
+        display: block;
+        flex-direction: column;
+      }
+      
+    .home-contain h1, .about-box-1 h1, .our-services h1, .we-are h1, .why-choose-us-box-1 h1,.Workflows-box-1 h1 {
+        font-size: 30px;
+    }
+    .child-1 h1, .child-2 h1, .child-3 h1, .child-4 h1 {
+        font-size: medium;
+    }
+  
+}
+
+@media screen and (max-width:430px) {
+    li{
+        font-size: x-small !important;
+    }
+    .home-contain h1, .about-box-1 h1, .our-services h1, .we-are h1, .why-choose-us-box-1 h1,.Workflows-box-1 h1 {
+        font-size: 27px;
+    }
+    .home-container {
+        height: auto;
+        flex-direction: column;
+    }
+    .home-contain {
+        justify-content: space-between;
+    }
+    .home-box1, .home-box2 {
+        height: 300px;
+    }
+    .slider, .home-contain {
+        height: 300px;
+    }
+    .slider-img img {
+        width: 100%;
+        height: 250px;
+    }
+    .home-box2::before {
+        top: 0rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .about-head, .why-choose-us h4,.Workflows {
+        max-width: 40%;
+    }
+    .about-us {
+        height: auto;
+        flex-direction: column;
+    }
+    .about-box-2 {
+        height: 300px;
+    }
+    .about-box-2::before {
+        height: 300px;
+        left: 12rem;
+    }
+    .our-services-text{
+        width: 100%;
+        max-width: 95%;
+        margin: 1rem auto;
+        text-align: center;
+        height: 100px;
+    }
+    .ser-box-1 {
+        width: 100%;
+        display: grid;
+        height: auto;
+        grid-template-columns: repeat(2, auto);
+        gap: 1rem;
+    }
+    .ser-box-2{
+        display: none;
+    }
+    .ser-box-2-mini{
+        width: 100%;
+        display: grid;
+        height: auto;
+        grid-template-columns: repeat(2, auto);
+        gap: 1rem;
+    }
+    .ser-child {
+        width: 90%;
+    }
+    .we-are {
+        height: 200px;
+        background-size: 100% 80%;
+    }
+    .we-are::before {
+        height: 200px;
+    }
+    .we-are h1 {
+        font-size: 25px;
+    }
+    .we-are-btn {
+        padding: 0.5rem 1rem;
+        font-size: smaller;
+    }
+    .why-choose-us-box-1 {
+        gap: 2rem;
+        height: auto;
+    }
+    .why-choose-us-boxs {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .why-choose-us-box-2::before {
+        width: 150px;
+        height: 150px;
+        bottom: 1rem;
+    }
+    .Workflows-us {
+        flex-direction: column-reverse;
+    }
+    .work-box-1-child {
+        height: auto;
+        flex-direction: column;
+    }  
+    .work-box-2-child{
+        height: auto;
+        flex-direction: column-reverse;
+    }  
+    .contact-us {
+        flex-direction: column-reverse;
+    }
+}
