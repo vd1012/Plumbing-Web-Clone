@@ -146,7 +146,7 @@ a {
   height: 250px;
   right: 1rem;
   top: 0rem;
-  background-image: url(/Images/home-details-bg.png);
+  background-image: url(Images\home-details-bg.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -213,7 +213,7 @@ a {
 .about-box-2 {
   width: 100%;
   height: 500px;
-  background-image: url(/Images/box-2plumber-bg-2.png);
+  background-image: url(Images\box-2plumber-bg-2.png);
   background-size: 100% 80%;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -225,7 +225,7 @@ a {
   width: 50%;
   width: -webkit-fill-available;
   height: 500px;
-  background-image: url(/Images/box-2plumber.png);
+  background-image: url(Images\box-2plumber.png);
   background-size: 100% 97%;
   left: 19rem;
   background-repeat: no-repeat;
@@ -343,7 +343,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-image: url(/Images/we-are-bg.jpg);
+  background-image: url(Images\we-are-bg.jpg);
   position: relative;
   display: flex;
   flex-direction: column;
@@ -434,7 +434,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-image: url(/Images/why-choose-u2.jpg);
+  background-image: url(Images\why-choose-u2.jpg);
   bottom: 0rem;
   filter: drop-shadow(1px 2px 1px black);
 }
@@ -531,16 +531,16 @@ a {
   background-repeat: no-repeat;
 }
 .child-1 {
-  background-image: url(/Images/Appointment.jpg);
+  background-image: url(Images\Appointment.jpg);
 }
 .child-2 {
-  background-image: url(/Images/Checking.jpg);
+  background-image: url(Images\Checking.jpg);
 }
 .child-3 {
-  background-image: url(/Images/Repairing.avif);
+  background-image: url(Images\Repairing.avif);
 }
 .child-4 {
-  background-image: url(/Images/Problem\ Solved.jpg);
+  background-image: url(Images\Problem\ Solved.jpg);
 }
 .child-1:hover,
 .child-2:hover,
@@ -581,7 +581,7 @@ a {
   align-items: flex-start;
   gap: 2rem;
   justify-content: center;
-  background-image: url(/Images/contact-bg.jpg);
+  background-image: url(Images\contact-bg.jpg);
   aspect-ratio: 2/3;
   background-size: 100% 100%;
   background-position: center;
