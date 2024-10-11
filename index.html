@@ -61,8 +61,12 @@
           </div>
         </div>
         <div class="slider-controler">
-          <button class="prev-btn"><span style="color: rgb(11, 11, 11);">←</span></button>
-          <button class="next-btn"><span style="color: rgb(3, 3, 3)">→</span></button>
+          <button class="prev-btn">
+            <span style="color: rgb(11, 11, 11)">←</span>
+          </button>
+          <button class="next-btn">
+            <span style="color: rgb(3, 3, 3)">→</span>
+          </button>
         </div>
       </div>
       <div class="home-box2">
@@ -323,7 +327,7 @@
       </div>
     </div>
     <!-- why-choose-us -->
-     <h4 class="Workflows">Our Workflows</h4>
+    <h4 class="Workflows">Our Workflows</h4>
     <div class="Workflows-us">
       <div class="Workflows-box-2">
         <div class="work-box-1-child">
@@ -448,74 +452,97 @@
       </div>
     </div>
     <div class="contact-us">
-      <div class="contact-box-1"> 
-        <h1><span style="color: orange;">Let’s</span> Get in <span style="color: orange;">Touch</span>...</h1>
+      <div class="contact-box-1">
+        <h1>
+          <span style="color: orange">Let’s</span> Get in
+          <span style="color: orange">Touch</span>...
+        </h1>
         <form id="contactForm" onsubmit="return validateForm()">
-            <div class="input-box">
-              <input type="text" id="name" name="name" placeholder="Enter Your Name"/>
-            <input type="email" id="email" name="Email" placeholder="Enter your Email"/>
-            </div>
-            <div class="input-box">
-              <input type="number" id="number" name="number" placeholder="Enter Your Number"/>
-              <input type="date" name="date" id="date" placeholder="Date"/>
-            </div>
-            
-            <!-- Plumbing options dropdown -->
-            <select id="plumbingOption" name="plumbingOption">
-                <option value="" disabled selected>Select Plumbing Service</option>
-                <option value="installation">Installation</option>
-                <option value="repair">Repair</option>
-                <option value="maintenance">Maintenance</option>
-            </select>
-    
-            <!-- Message box -->
-            <textarea id="message" name="message" placeholder="Enter your message" rows="7"></textarea>
-            
-            <input type="submit" value="Submit">
+          <div class="input-box">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter Your Name"
+            />
+            <input
+              type="email"
+              id="email"
+              name="Email"
+              placeholder="Enter your Email"
+            />
+          </div>
+          <div class="input-box">
+            <input
+              type="number"
+              id="number"
+              name="number"
+              placeholder="Enter Your Number"
+            />
+            <input type="date" name="date" id="date" placeholder="Date" />
+          </div>
+
+          <!-- Plumbing options dropdown -->
+          <select id="plumbingOption" name="plumbingOption">
+            <option value="" disabled selected>Select Plumbing Service</option>
+            <option value="installation">Installation</option>
+            <option value="repair">Repair</option>
+            <option value="maintenance">Maintenance</option>
+          </select>
+
+          <!-- Message box -->
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Enter your message"
+            rows="7"
+          ></textarea>
+
+          <input type="submit" value="Submit" />
         </form>
-    </div>
+      </div>
       <div class="contact-box-2">
         <div class="contact-childs-1">
           <h3>Contact Person</h3>
-         <div style="display: flex; justify-content: space-between;">
-          <div
-          class="contact-person"
-          style="
-            display: grid;
-            border-left: 2px solid orange;
-            padding: 0 10px;
-          "
-        >
-          <h4>abcd abcd</h4>
-          <p>Landline: asdfghgfdsdfg</p>
-          <p>Email: abc@glcapital.in</p>
-        </div>
-        <div
-          class="contact-person"
-          style="
-            display: grid;
-            border-left: 2px solid rgb(0, 0, 0);
-            padding: 0 10px;
-          "
-        >
-        <h4>abcd abcd</h4>
-        <p>Landline: asdfghgfdsdfg</p>
-        <p>Email: abc@glcapital.in</p>
-        </div>
-         </div>
-          <div style="display: flex; justify-content: center;">
+          <div style="display: flex; justify-content: space-between">
             <div
-            class="contact-person"
-            style="
-              display: grid;
-              border-left: 2px solid orange;
-              padding: 0 10px;
-            "
-          >
-          <h4>abcd abcd</h4>
-          <p>Landline: asdfghgfdsdfg</p>
-          <p>Email: abc@glcapital.in</p>
+              class="contact-person"
+              style="
+                display: grid;
+                border-left: 2px solid orange;
+                padding: 0 10px;
+              "
+            >
+              <h4>abcd abcd</h4>
+              <p>Landline: asdfghgfdsdfg</p>
+              <p>Email: abc@glcapital.in</p>
+            </div>
+            <div
+              class="contact-person"
+              style="
+                display: grid;
+                border-left: 2px solid rgb(0, 0, 0);
+                padding: 0 10px;
+              "
+            >
+              <h4>abcd abcd</h4>
+              <p>Landline: asdfghgfdsdfg</p>
+              <p>Email: abc@glcapital.in</p>
+            </div>
           </div>
+          <div style="display: flex; justify-content: center">
+            <div
+              class="contact-person"
+              style="
+                display: grid;
+                border-left: 2px solid orange;
+                padding: 0 10px;
+              "
+            >
+              <h4>abcd abcd</h4>
+              <p>Landline: asdfghgfdsdfg</p>
+              <p>Email: abc@glcapital.in</p>
+            </div>
           </div>
           <div class="socials">
             <h2>Socials</h2>
@@ -530,8 +557,88 @@
       </div>
     </div>
     <!-- contact-us -->
+    <div class="footer">
+      <div class="footer-box1">
+        <span
+          ><a href="mailto:mrvdparmar96@gmail.com" target="_blank"
+            >Email : mrvdparmar96@gmail.com</a
+          ></span
+        >
+        <span
+          ><a href="telto:9033200817" target="_blank"
+            >Emergency Number : 123 123 3322</a
+          ></span
+        >
+      </div>
+      <div class="footer-box2">
+        <div class="box2-child-1">
+          <h3>About</h3>
+          <p>
+            Welcome to [Your Plumbing Company Name], your trusted local plumber.
+            With years of experience, we provide reliable, high-quality plumbing
+            services for both residential and commercial properties. From minor
+            leaks and clogged drains to full plumbing installations, we’re here
+            to help with all your plumbing needs!
+          </p>
+        </div>
+        <div class="box2-child-2">
+          <h3>Services We Offer</h3>
+          <li>Leak Repairs</li>
+          <li>Drain Cleaning</li>
+          <li>Water Heater Installation & Repair</li>
+          <li>Sewer Line Repairs</li>
+          <li>Pipe Replacements</li>
+          <li>Fixture Installations</li>
+          <li>Bathroom & Kitchen Plumbing</li>
+        </div>
+        <div class="box2-child-3">
+          <h3>Useful Link</h3>
+          
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Our Service</a></li>
+            <li><a href="">Our Workflows</a></li>
+            <li><a href="">Contact Us</a></li>
+          
+        </div>
+        <div class="box2-2">
+          <div class="box2-child-2">
+            <h3>Services We Offer</h3>
+            <li>Leak Repairs</li>
+            <li>Drain Cleaning</li>
+            <li>Water Heater Installation & Repair</li>
+            <li>Sewer Line Repairs</li>
+            <li>Pipe Replacements</li>
+            <li>Fixture Installations</li>
+            <li>Bathroom & Kitchen Plumbing</li>
+          </div>
+          <div class="box2-child-3">
+            <h3>Useful Link</h3>
+            
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Our Service</a></li>
+              <li><a href="">Our Workflows</a></li>
+              <li><a href="">Contact Us</a></li>
+            
+          </div>
+        </div>
+        <!-- <div class="box2-child-4">
+          <h5>24/7 Emergency Service</h5>
+          <p>
+            Plumbing issues can strike at any time, but you don’t have to wait!
+            We're here day or night, ready to tackle your plumbing emergencies
+            whenever they happen. Fast, reliable, and just a call away!
+          </p>
+        </div> -->
+     
+     
+      </div>
+      <div class="footer-box3">
+        <p>© 2024 - All Rights Reserved.</p>
+      </div>
+    </div>
 
-    
     <script src="/Js/script.js"></script>
   </body>
 </html>
